@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import ProcessBar from './ProcessBar/ProcessBar';
+import SideBarComponent from './Side-Bar/SideBarComponent.js';
+import Customer from './Customer/Customer';
+import Information from './Information/Information';
+import ColorIcons from './ColorIcons/ColorIcons';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <SideBarComponent />
+        <div className='content'>
+          <Information />
+          <ProcessBar />
+          <div className="detail">
+            <h4>Detail topic break down</h4>
+            <ColorIcons />
+            <Customer />
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
+
 
 export default App;

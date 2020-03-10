@@ -1,0 +1,38 @@
+.circle {
+    border: 15px solid rgb(211, 210, 210);
+    width: 30%;
+    height: 60%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+}
+.circle h1 {
+    font-size: 130px;
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+}
+.circle h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+.info-call {
+    position: relative;
+}
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    left: 12%;
+}
+button:hover {
+    color: rgb(238, 238, 238);
+    background: orangered;
+    cursor: pointer;
+}

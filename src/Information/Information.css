@@ -1,0 +1,22 @@
+.info {
+    display: grid;
+    width: 100%;
+    height: 40vh;
+    grid-template-columns: auto;
+    flex: 1;
+  }
+  .info-call {
+    flex: 1;
+    height: 40vh;
+  }
+  .content {
+    margin: 2%;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+  }
+  

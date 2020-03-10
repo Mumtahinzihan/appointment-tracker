@@ -1,0 +1,57 @@
+.colours {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .colours p {
+    margin: 15px;
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .red {
+    background-color: rgb(197, 89, 50);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }
+  .blue {
+    background-color: rgb(43, 88, 212);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }
+  .green {
+    background-color: rgb(54, 189, 155);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }
+  .purple {
+    background-color: rgb(134, 83, 158);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }
+  .yellow {
+    background-color: rgb(167, 187, 77);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }
+  .grey {
+    background-color: rgb(182, 180, 180);
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+  }

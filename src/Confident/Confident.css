@@ -1,0 +1,39 @@
+
+#colour-g, #colour-h, #colour-i, #colour-j, #colour-k, #colour-l {
+    height: 20px;
+    width: 140px;
+    cursor: pointer;
+}
+#colour-g {
+    background-color: rgb(197, 89, 50);
+    color: rgb(197, 89, 50);
+}
+#colour-h {
+    background-color: rgb(43, 88, 212);
+    color: rgb(43, 88, 212);
+}
+#colour-i {
+    background-color: rgb(54, 189, 155);
+    color: rgb(54, 189, 155);
+}
+#colour-j {
+    background-color: rgb(167, 187, 77);
+    color: rgb(167, 187, 77);
+}
+#colour-k {
+    background-color: rgb(134, 83, 158);
+    color: rgb(134, 83, 158);
+}
+#colour-l {
+    background-color: rgb(182, 180, 180);
+    color: rgb(182, 180, 180);
+}
+
+.color-layout {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: flex-start;
+    width: 0px;
+    height: 15px;
+    text-align: left;
+}

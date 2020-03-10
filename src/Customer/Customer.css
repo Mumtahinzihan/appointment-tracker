@@ -1,0 +1,53 @@
+.customer-type {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#colour, #colour1, #colour2, #colour3, #colour4, #colour5 {
+    height: 20px;
+    width: 140px;
+    cursor: pointer;
+}
+#colour {
+    background-color: rgb(197, 89, 50);
+    color: rgb(197, 89, 50);
+}
+#colour1 {
+    background-color: rgb(43, 88, 212);
+    color: rgb(43, 88, 212);
+}
+#colour2 {
+    background-color: rgb(54, 189, 155);
+    color: rgb(54, 189, 155);
+}
+#colour3 {
+    background-color: rgb(167, 187, 77);
+    color: rgb(167, 187, 77);
+}
+#colour4 {
+    background-color: rgb(134, 83, 158);
+    color: rgb(134, 83, 158);
+}
+#colour5 {
+    background-color: rgb(182, 180, 180);
+    color: rgb(182, 180, 180);
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    height: 100px;
+}
+.color-layout {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: flex-start;
+    width: 0px;
+    height: 15px;
+}
