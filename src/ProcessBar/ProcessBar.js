@@ -24,9 +24,9 @@ export default function ProcessBar() {
 
     return (
         <div className="info-call">
-            <h4>Call this month <strong>{Math.round((count * 100)/28)}%</strong> {(count <= 27) ? count : <p style={coloring}>You have reached your highest number of call!</p>}</h4>
+            <h4>Call this month <strong>{Math.round((count * 100)/28)}%</strong> {(count >= 28) ? <p style={coloring}>You have reached your highest number of call!</p> : null }</h4>
             <div className='circle' id='circle'>
-                <h1>{count}</h1><h2>/28</h2>
+                <h1>{count < 29 ? count : 28}</h1><h2>/28</h2>
             </div>
             <button onClick={() => {
                 increaseCall();
