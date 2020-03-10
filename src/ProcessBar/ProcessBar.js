@@ -34,7 +34,7 @@ export default function ProcessBar() {
                 position();
                 position1();
                 position2();
-            } }>click</button>
+            } }>Add call</button>
         </div>
     )
 }
