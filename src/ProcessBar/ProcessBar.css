@@ -30,6 +30,7 @@ button {
     position: absolute;
     bottom: -25px;
     left: 12%;
+    display: block;
 }
 button:hover {
     color: rgb(238, 238, 238);
