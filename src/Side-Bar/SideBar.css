@@ -20,3 +20,14 @@ main {
   span p {
     color: rgb(160, 160, 160);
   }
+  a {
+    text-decoration: none;
+    color:  rgb(236, 236, 236);
+  }
+  span h4 {
+    padding: 10px 5px 10px 5px;
+  }
+  span h4:hover {
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+  }

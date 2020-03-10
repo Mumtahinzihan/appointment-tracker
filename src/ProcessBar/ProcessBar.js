@@ -5,7 +5,7 @@ export default function ProcessBar() {
         color: 'red',
     }
     const [count, setCount] = useState(0);
-    const [color, setColor] = useState('red');
+    const [color, setColor] = useState('tomato');
     const increaseCall =() => {
         setCount(count + 1);
     }
@@ -13,10 +13,10 @@ export default function ProcessBar() {
         setColor(document.getElementById('circle').style.borderTop = `15px solid ${count <= 7 ? color : 'null'}`)
     }
     const position= ()=> {
-        setColor(document.getElementById('circle').style.borderRight = `15px solid ${count >= 8 && count <= 14 ? 'red' : 'null'}`)
+        setColor(document.getElementById('circle').style.borderRight = `15px solid ${count >= 8 && count <= 14 ? 'tomato' : 'null'}`)
     }
     const position1= ()=> {
-        setColor(document.getElementById('circle').style.borderBottom = `15px solid ${count >= 16 && count <= 24 ? 'red': 'null'}`)
+        setColor(document.getElementById('circle').style.borderBottom = `15px solid ${count >= 16 && count <= 24 ? 'tomato': 'null'}`)
     }
     const position2= ()=> {
         setColor(document.getElementById('circle').style.borderLeft = `15px solid ${count >= 24 && count <= 28 ? 'red' : 'null'}`)
